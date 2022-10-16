@@ -1,0 +1,294 @@
+@media only screen and (max-width:768px) {
+    body {
+        border: 1px solid white;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    .menu {
+        border: white solid 1px;
+        width: 100%;
+        background-color: #789;
+    }
+    .menu ul {
+        margin: 0px;
+        margin-left: -40px;
+    }
+    .menu ul li {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        list-style-type: none;
+        display: inline;
+        overflow: hidden;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 2vw;
+        text-align: center;
+        font-size: 2.5vw;
+        width: 20%;
+        margin-left: 10px;
+    }
+    .trong {
+        display: none;
+    }
+    #banner1 {
+        padding: 20px;
+    }
+    #banner1 h1 {
+        font-family: sans-serif;
+        font-size: 40px;
+    }
+    #banner1 p {
+        color: #9C9C9C;
+    }
+    .hinhanh1>p {
+        color: #9C9C9C;
+    }
+    .hinhanh {
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    img {
+        width: 90%;
+    }
+    #mexico {
+        padding-bottom: 30px;
+    }
+    #newyork {
+        padding-bottom: 30px;
+    }
+    #paris {
+        padding-bottom: 30px;
+    }
+    #tokyo {
+        padding-bottom: 30px;
+    }
+    .travel {
+        padding: 30px;
+    }
+    .host {
+        padding: 30px;
+    }
+    .trust {
+        padding: 30px;
+    }
+    #travel1 {
+        text-decoration: underline;
+    }
+    #host1 {
+        text-decoration: underline;
+    }
+    #trust1 {
+        text-decoration: underline;
+    }
+}
+
+
+/* aaaaaaaaaaaaaaaaaaaa */
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        margin: auto;
+        height: auto;
+    }
+    .menu {
+        background-color: #789;
+    }
+    .menu ul {
+        list-style-type: none;
+    }
+    .menu ul li {
+        display: inline;
+    }
+    .menu ul li a {
+        border: 1px solid #789;
+        height: 60px;
+        line-height: 60px;
+        font-size: 2vw;
+        color: white;
+        text-decoration: none;
+        padding: 1.5vw;
+    }
+    .menu ul li:nth-child(2) {
+        margin-right: 40%;
+    }
+    .banner {
+        padding: 30px;
+    }
+    .trong {
+        border: 1px solid #9C9C9C;
+        height: 1px;
+        width: 95vw;
+        margin: 10px;
+    }
+    .hinhanh {
+        /* display: flex; */
+        overflow: hidden;
+    }
+    img {
+        display: block;
+        padding: 15px;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    #hinhanh2 {
+        width: 50%;
+        float: left;
+    }
+    .hinhanh3 {
+        width: 50%;
+        float: right;
+    }
+    .hinhanh4 {
+        float: left;
+        width: 50%;
+    }
+    .footer {
+        padding: 20px;
+    }
+    .travel p {
+        color: #9C9C9C;
+    }
+    .host p {
+        color: #9C9C9C;
+    }
+    .trust p {
+        color: #9C9C9C;
+    }
+    #travel1 {
+        text-decoration: underline;
+        color: blue;
+    }
+    #host {
+        text-decoration: underline;
+        color: blue;
+    }
+    #trust {
+        text-decoration: underline;
+        color: blue;
+    }
+}
+
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+@media only screen and (min-width:992px){
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        height: auto;
+        margin: auto;
+        border: solid 1p white;
+        overflow: auto;
+    }
+    .menu {
+        width: 100%;
+        margin: auto;
+        border: solid 1px white;
+        display: inline;
+    }
+    .menu ul li {
+        display: inline;
+        list-style-type: none;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 20px;
+        width: 100%;
+        font-size: 1.5vw;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: black;
+    }
+     .menu ul li:nth-child(2) {
+        margin-right: 60%;
+    }
+    .banner {
+        background-image:url(https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png) ;
+        height: 500px;
+        padding-top: 1px;
+        position: relative;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #banner1 {
+        padding-top: 100px;
+        padding-left: 40px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    #banner1 h1 {
+        margin-bottom: 0px;
+    }
+    #banner1 p {
+        margin-top: 0px;
+    }
+    .hinhanh {
+        background-color: #e4e4e4;
+        overflow: hidden;
+    }
+    .hinhanh1 {
+        padding: 20px;
+    }
+    img {
+        display: block;
+        padding: 15px;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    #hinhanh2 {
+        float: left;
+        width: 33%;
+    }
+    .hinhanh3 {
+        float: left;
+        width: 33%;
+    }
+    .hinhanh4 {
+        float: right;
+        width: 33%;
+    }
+    .footer {
+        display: flex;
+        padding: 40px;
+        background-color: #EEEEEE;
+        border: solid 1px #eee;
+        width: 100%;
+        margin-top: 0px;
+        box-sizing: border-box;
+    }
+    .travel {
+        float: left;
+        width: 33%;
+    }
+    .host {
+        width: 33%;
+    }
+    .trust {
+        width: 33%;
+    }
+    #travel1 {
+        color: blue;
+        text-decoration: underline;
+    }
+    #host1 {
+        color: blue;
+        text-decoration: underline;
+    }
+    #trust1 {
+        color: blue;
+        text-decoration: underline;
+    }
+    }
+    
